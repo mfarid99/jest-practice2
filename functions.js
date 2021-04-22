@@ -6,6 +6,11 @@ const functions = {
     sub: (y1, y2) => y1 -y2,
     metalx: (z1, z2, z3) => z1 * z2 * z3,
     checkVal: (x) => x,
+    createUser: ()=> {
+        const user = {firstName: 'Moe'};
+        user['lastName'] = 'Farid';
+        return user;
+    }
 }
 
 
